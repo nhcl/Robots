@@ -1,0 +1,14 @@
+<web-app>
+    <display-name>Widget Store</display-name>
+   
+    <servlet>
+        <servlet-name>robot-details</servlet-name>
+        <servlet-class>widgetstore.web.RobotDetailsServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>robot-details</servlet-name>
+        <url-pattern>/robot</url-pattern>
+    </servlet-mapping>
+    
+</web-app>
